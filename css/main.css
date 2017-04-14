@@ -1,0 +1,38 @@
+h1 {
+    font-size: 60px;
+    font-family: verdana;
+    text-align: center;
+    padding-top: 250px;   
+}
+.jumbotron {
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: cover;
+	height: 800px;
+	padding-top: 10px;
+}
+.navbar-brand {
+	background: url(../images/logo.png) no-repeat;
+	width: 120px;
+}
+.navbar-default {
+	background: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 18px;
+    font-family: verdana;
+    font-weight: 600;
+
+}
+@media (max-width: 750px) {
+    .navbar-default .navbar-collapse {
+        background-color: rgba(207, 181, 59, 0.2);
+        border-color: transparent;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+    }
